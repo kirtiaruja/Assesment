@@ -1,0 +1,38 @@
+.menu_items {
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    background-color: black;
+    position: fixed;
+    height: 95%;
+    overflow: auto;
+}
+
+.menu_items li {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    column-gap: 7%;
+    padding-top: 16%;
+}
+.menu_items li:hover {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 18px;
+    column-gap: 7%;
+    padding-top: 16%;
+}
+.menu_title{
+    padding-top: 15%;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}

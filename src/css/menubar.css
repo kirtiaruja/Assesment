@@ -1,0 +1,30 @@
+
+.menu_wrapper{
+    height: 100%;
+    text-align: center;
+    width: 280px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 25px;
+    background-color: black;
+    margin-left: 1%;
+    color: white;
+}
+/*
+.menu_title{
+    padding-top: 15%;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+.menu_items{
+    margin-top: 10%;
+}
+.menu_items li{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    column-gap: 7%;
+    padding-top: 16%;
+}*/

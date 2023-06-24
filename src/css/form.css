@@ -1,0 +1,153 @@
+.wrapper title{
+   align-content: flex-end;
+}
+.title{
+    
+    text-align: left;
+}
+.title label{
+    font-weight: bold;
+    font-size: 36px;
+}
+.direct_login{
+    margin-top: 25px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-around;
+}
+.google button{
+    background: white;
+    border: none;
+    color: #858585;
+    border-radius: 22px;
+    width: 180px;
+    height: 30px;
+    display: inline-flex;
+    column-gap: 16px;
+    padding-top: 7px;
+}
+.google button:hover{
+    background: white;
+    border: none;
+    color: #858585;
+    border-radius: 22px;
+    width: 180px;
+    height: 30px;
+    display: inline-flex;
+    column-gap: 16px;
+    padding-top: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.google img{
+    width: 12%;
+}
+.apple img{
+    width: 15%;
+}
+.apple button{
+    background: white;
+    color: #858585;
+    border: none;
+    border-radius: 22px;
+    width: 180px;
+    height: 30px;
+    display: inline-flex;
+    column-gap: 16px;
+}
+.apple button:hover{
+    background: white;
+    border: none;
+    color: #858585;
+    border-radius: 22px;
+    width: 180px;
+    height: 30px;
+    display: inline-flex;
+    column-gap: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form_wrapper{
+    background: white;
+    margin-top: 3%;
+    border-radius: 25px;
+    padding-top: 8%;
+    padding-left: 7%;
+    padding-bottom: 8%;
+    font-size: 16px;
+}
+.email_input{
+    
+}
+.email_input input{
+    margin-top: 3%;
+    width: 91%;
+    height: 40px;
+    border-radius: 11px;
+    background: #f1f1f1f1;
+    border: none;
+    
+}
+.email_input input:focus{
+    margin-top: 3%;
+    width: 91%;
+    height: 40px;
+    border-radius: 11px;
+    background: #f1f1f1f1;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.password_input{
+    margin-top: 8%; 
+}
+.password_input input{
+    margin-top: 3%;
+    width: 91%;
+    height: 40px;
+    border-radius: 11px;
+    background: #f1f1f1f1;
+    border: none;
+    
+}
+.password_input input:focus{
+    margin-top: 3%;
+    width: 91%;
+    height: 40px;
+    border-radius: 11px;
+    background: #f1f1f1f1;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.forgotPassword a{
+    text-decoration: none;
+}
+.forgotPassword{
+    margin-top: 7%;
+}
+.sign_in_button{
+    margin-top: 5%;
+}
+.sign_in_button button{
+    width:91%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 11px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.register_here{
+    margin-top: 5%;
+    margin-left: 22%;
+    text-align: center;
+    width: 390px;
+}
+.register_here a{
+    text-decoration: none;
+}
+.register_here label{
+    color: #858585;
+}
+.nsm7Bb-HzV7m-LgbsSe{
+    border-radius: 25px !important;
+}
