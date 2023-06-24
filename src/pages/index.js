@@ -3,7 +3,7 @@ import DashboardLeftText from '../components/index_left_text';
 import '../css/index_left.css';
 import SignIn from '../components/form';
 
-const Index = () => {
+const Index = ({user, setUser}) => {
     return (
         <div className='wrapper'>
             <div class="split left">
@@ -13,7 +13,7 @@ const Index = () => {
             </div>
 
             <div class="split right">
-                    <SignIn/>
+                    <SignIn user={user} setUser={setUser}/>
             </div>
         </div>
     );

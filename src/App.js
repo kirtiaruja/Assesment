@@ -11,7 +11,7 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Index />} />
+          <Route path='/' element={<Index user={session} setUser={setSession}/>} />
           <Route path='/dashboard' element={<Dashboard user={session}/>} />
         </Routes>
       </BrowserRouter>

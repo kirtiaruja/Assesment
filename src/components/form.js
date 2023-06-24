@@ -15,20 +15,22 @@ const loadScript = (src) =>
     script.onerror = (err) => reject(err)
     document.body.appendChild(script)
   })
-const SignIn = () => {
+const SignIn = ({setUser, user}) => {
     const navigate = useNavigate();
     const handleCallBackResponse=(response)=>{ 
-        if(response.credential) {
+        if(response.credential || user) {
+            setUser(response.credential)
             navigate('/dashboard')
     } }
     useEffect(()=>{
+        
         const source = "https://accounts.google.com/gsi/client";
         loadScript(source).then(()=>{ 
             window.google.accounts.id.initialize({
-            client_id: '949029535981-gj2fd40pbvbc1bhsk2t5p2k7f0qq1r8u.apps.googleusercontent.com',
+            client_id: process.env.REACT_APP_GOOGLE_ID,
             callback: handleCallBackResponse
         })
-        
+
         window.google.accounts.id.renderButton(
            google_ref.current,
             {theme:"outline"}
